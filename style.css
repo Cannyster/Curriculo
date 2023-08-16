@@ -1,0 +1,57 @@
+  /* regras css */
+  @charset "UTF-8";
+
+  /* styles */
+
+  * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .Curriculo{
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid dimgray;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h4 {
+    text-align: center;
+    background-color: #bec5ca;
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+  }
+
+  ul, li{
+    list-style-type: disc;
+    list-style-position: outside;
+  }
+
+  .redesSociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .github{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .linkedin{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
